@@ -13,7 +13,7 @@ public class Lab3_2{
 		}
 		if(st.equals(rev))
 		{
-			System.out.println("String is Palindrome.");
+			System.out.println("String is Palindrome");
 		}
 		else{
 			System.out.println("String is not Palidrome");
