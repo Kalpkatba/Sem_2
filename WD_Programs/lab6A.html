@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>lab 6-A</title>
+	<style type="text/css">
+	*{
+		box-sizing: border-box;
+	}
+	.div1{
+		background-color: #AAF3FF;
+		width:100% ;
+		height: 100vh;
+		padding: 2%;
+		font-size: 30px;
+	}
+	.div2{
+		background-color: #6D2A7D;
+		height: 5%;
+		font-size: 20px;
+	}
+	.div3{
+		background-color: #FFCF3F;
+		height: 80%;
+		padding: 2%;
+	}
+	.Entry{
+		background-color: black;
+		width: 225%;
+		height: 10%;
+		color: white;
+		padding: 5%;
+		margin: 5%;
+		float: left;
+	}
+	.sidebar{
+		background-color: #000000;
+		width: 40%;
+		height: 50%;
+		float: right;
+		color: white;
+	}
+	.ent{
+		float: left;
+	}
+	.last{
+		background-color: blue;
+		height: 5%;
+		font-size: 20px;
+	}
+	.sidebarmain{
+		height: 100%;
+	}	
+	@media (max-width: 700px){
+		.ent{
+			width: 100%;
+		}
+		.sidebar{
+			width: 100%;
+			margin-top: 5%;
+		}
+	}
+
+	</style>
+</head>
+<body>
+	<div class="div1">
+		Page
+		<div class="div2">Header</div>
+		<div class="div3">
+			<div>Content</div>
+			<div class="ent">
+				<div class="Entry">Entry</div>
+				<div class="Entry">Entry</div>
+				<div class="Entry">Entry</div>
+				
+			</div>
+			<div class="sidebarmain">
+			<div class="sidebar">Sidebar</div>
+			</div>
+		</div>
+		<div class="last">@Darshan University</div>
+		
+	</div>
+
+</body>
+</html>

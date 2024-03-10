@@ -1,0 +1,125 @@
+*{
+	box-sizing: border-box;
+}
+.background{
+	width: 200vh;
+	height: 100%;
+	background-position: center;
+	position: absolute;
+	z-index: -10;
+
+}
+.logo{
+	position: absolute;
+	top: 11%;
+	left: 8%;
+	height: 40px;
+	width: 40px;
+	z-index: -5;
+}
+.back1{
+	position: absolute;
+	top: 9%;
+	left: 7%;
+	height: 45vh;
+	width: 80%;
+	z-index: -8;
+}
+.back2{
+	height: 45vh;
+	width: 80%;
+	margin-left: 6.5%;
+	margin-top: 1%;
+	z-index: -8;
+	position: absolute;
+
+}
+.Searchbar{
+	position: absolute;
+	z-index: -1;
+	top: 10%;
+	left: 65%;	
+}
+.content{
+	display: flex;
+	padding: 65px;
+	padding-left: 10px;
+	margin-left: 200px;
+}
+.logo2{
+	display: flex;
+	padding: 40px;
+	padding-left: 5px;
+	justify-content: space-zero;
+	margin-left: 30%;
+}
+.Home{
+	padding-left: 20px;
+}
+.Myintro{
+	padding-left: 20px;
+}
+.Services{
+	padding-left: 20px;
+}
+.Pages{
+	padding-left: 20px;
+}
+.line1{
+	font-size: 20px;
+	margin-left: 100px;
+}
+.line2{
+	font-size: 50px;
+	font-weight: bolder;
+	margin-left: 100px;
+}
+.line3{
+	font-size: 20px;
+	margin-left: 100px;
+}
+.Hireme{
+	border: 1px solid red;
+	background-color: red;
+	border-radius: 30%;
+	height: 40px;
+	width: 80px;
+	margin-left: 120px;
+	padding-top: 8px;
+	text-align: center;
+
+}
+.paypal{
+	padding-left: 10px;
+	height: 70px;
+	width: 140px;
+}
+.google{
+	padding-left: 10px;
+	height: 70px;
+	width: 140px;
+}
+.samsung{
+	padding-left: 10px;
+	height: 70px;
+	width: 140px;
+}
+.lenovo{
+	padding-left: 10px;
+	height: 70px;
+	width: 140px;
+}
+.amazon{
+	padding-left: 10px;
+	height: 70px;
+	width: 140px;
+}
+.year{
+	font-size: 50px;
+	font-weight: bolder;
+	margin-left: 12%;
+}
+.year2{
+	margin-left: 12%;
+
+}

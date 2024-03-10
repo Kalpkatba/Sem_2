@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lab 9_2</title>
+	<style type="text/css">
+		.hello{
+			background-color: purple;
+			animation-name: hello;
+			animation-duration:2s;
+			animation-delay: 1s;
+        	animation-direction: alternate;
+        	animation-timing-function: linear;
+        	animation-iteration-count: infinite;
+        	height: 20vh;
+        	width: 20%;
+        	text-align: center;
+        	font-size: 30px;
+        	position: absolute;
+		}
+		@keyframes hello {
+			0%{left:0px;top: 0px;}
+			25%{left:80%;top: 0px;}
+			50%{left: 80%;top: 500px;}
+			75%{left: 10px;top: 500px;}
+			100%{left: 0px;top: 0px;}
+		}
+	</style>
+</head>
+<body>
+	<div class="hello">
+		hello
+	</div>
+
+</body>
+</html>
