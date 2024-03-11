@@ -3,6 +3,9 @@
 <head>
 	<title>lab-13B</title>
 	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
 		.main{
 			width: 100%;
 			height: 100vh;
@@ -11,8 +14,6 @@
 			width: 100%;
 			height: 10%;
 			background-color: black;
-			z-index: -5;
-			position: absolute;
 		}
 		.image1{
 			float: left;
@@ -21,16 +22,77 @@
 			font-family: bangers;
 			color: white;
 			font-size: 40px;
-			z-index: -3;
-			position: absolute;
-			padding-left: 7%;
 			padding-top: 1%;
+			float: left;
 		}
 		.footer{
 			background-color: grey;
 			width: 100%;
-			height: 90%;
+			height: 100%;
 		}
+		.htmltemp{
+			text-decoration: none;
+			float: right;
+			padding: 1%;
+		}
+		.htmltemp1{
+			text-decoration: none;
+			float: right;
+			padding: 1.2%;
+		}
+		.download{
+			float: right;
+			margin-top: 1.2%;
+			height: 1%;
+		}
+		.image2{
+			float: right;
+		}
+		select{
+			background-color: black;
+			color: white;
+			border: 1px solid black;
+		}
+		.ALL{
+			font-size: 40px;
+			margin-left: 65%;
+			margin-top: -10%;
+			font-weight: bolder;
+		}	
+		.image3{
+			width: 90%;
+			height: 10%;
+			padding-left: 10%;
+			padding-top: 2%;
+		}
+		
+		.footercnt{
+			display: flex;
+			justify-content: space-evenly;
+			width: 100%;
+			height: 70;
+			padding-left: 1%;
+			padding-top: 10%;
+		}
+		.cnt1{
+			width: 20%;
+			height: 70%;
+			background-color: white;
+		}
+		.img1{
+			width: 100%;
+			height: 100%;
+		}
+		.up{
+			height: 50%;
+			width: 100%;
+		}
+		.txt{
+			font-family: cursive;
+			font-weight: bolder;
+			font-size: 20px;
+		}
+
 	</style>
 </head>
 <body>
@@ -38,8 +100,81 @@
 		<div class="top">
 			<img class="image1" src="Screenshot from 2024-03-01 09-00-58.png">
 			<div class="amp">SoundAmp</div>
+			<div class="content">
+				<div>
+					<img  class="image2" src="Screenshot from 2024-03-01 09-07-41.png">
+				</div>
+				<div class="download"><input type="button" value="Dowmload Now" style="background-color: skyblue; border-radius: 100px;border: 1px solid skyblue"></div>
+			</div>
+				<div class="htmltemp1">
+					<select>
+						<option disabled="" selected="">More HTML Templates</option>
+						<option>sfs</option>
+						<option>dvsd</option>
+						<option>sdv</option>
+					</select>
+				</div>
+			<div class="htmltemp">
+					<select>
+						<option disabled="" selected="">HTML Templates</option>
+						<option>abc</option>
+						<option>xyz</option>
+						<option>pqr</option>
+					</select>
+				</div>
 		</div>
-		<div class="footer"></div>
+		<div class="footer">
+			<div>
+				<img class="image3" src="Screenshot from 2024-03-11 10-33-06.png">
+				<div class="ALL">ALL EVENT</div>
+			</div>
+			<div class="footercnt">
+				<div class="cnt1">
+					<div class="up">
+						<img  class="img1" src="Screenshot from 2024-03-01 09-20-09.png">
+					</div>
+					<div class="txt">
+						10/05/2018<br><br>
+						Night Laser Show<br>
+						<br>
+						<input type="button" value="See more..." style="border-radius: 100px;background-color: skyblue;margin-left: 30%;border: 1px solid skyblue;">
+					</div>
+				</div>
+				<div class="cnt1">
+					<div class="up">
+						<img  class="img1" src="Screenshot from 2024-03-01 09-20-22.png">
+					</div>
+					<div class="txt">
+						10/05/2018<br><br>
+						Night Laser Show<br>
+						<br>
+						<input type="button" value="See more..." style="border-radius: 100px;background-color: skyblue;margin-left: 30%;border: 1px solid skyblue;">
+					</div>
+				</div>
+				<div class="cnt1">
+					<div class="up">
+						<img  class="img1" src="Screenshot from 2024-03-01 09-20-37.png">
+					</div>
+					<div class="txt">
+						10/05/2018<br><br>
+						Night Laser Show<br>
+						<br>
+						<input type="button" value="See more..." style="border-radius: 100px;background-color: skyblue;margin-left: 30%;border: 1px solid skyblue;">
+					</div>
+				</div>
+				<div class="cnt1">
+					<div class="up">
+						<img  class="img1" src="Screenshot from 2024-03-01 09-20-51.png">
+					</div>
+					<div class="txt">
+						10/05/2018<br><br>
+						Night Laser Show<br>
+						<br>
+						<input type="button" value="See more..." style="border-radius: 100px;background-color: skyblue;margin-left: 30%;border: 1px solid skyblue;">
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
 </body>
